@@ -1,0 +1,23 @@
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Data.Common\obj\Debug\ERP.Accounting.Data.Common.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Data.Common\bin\Debug\ERP.Accounting.Data.Common.dll.config
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Data.Common\bin\Debug\ERP.Accounting.Data.Common.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Data.Common\bin\Debug\ERP.Accounting.Data.Common.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Data.Common\obj\Debug\ERP.Accounting.Data.Common.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Data.Common\obj\Debug\ERP.Accounting.Data.Common.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Data.Common\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Data.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Data.Common\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Data.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Data.Common\obj\Debug\ERP.Accounting.Data.Common.csproj.CopyComplete
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Data.Common\obj\Debug\ERP.Accounting.Data.Common.csprojAssemblyReference.cache
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Data.Common\bin\Debug\ERP.Accounting.Data.Common.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Data.Common\bin\Debug\ERP.Accounting.Data.Common.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Data.Common\bin\Debug\ERP.Accounting.Data.Common.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Data.Common\bin\Debug\EntityFramework.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Data.Common\bin\Debug\EntityFramework.SqlServer.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Data.Common\bin\Debug\EntityFramework.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Data.Common\bin\Debug\EntityFramework.SqlServer.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Data.Common\obj\Debug\ERP.Accounting.Data.Common.csproj.CoreCompileInputs.cache
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Data.Common\obj\Debug\ERP.Accounting.Data.Common.csproj.CopyComplete
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Data.Common\obj\Debug\ERP.Accounting.Data.Common.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Data.Common\obj\Debug\ERP.Accounting.Data.Common.pdb

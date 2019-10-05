@@ -1,0 +1,45 @@
+<input type="text" nz-input [(ngModel)]="term" placeholder="جستجو" class="searchInput" />
+<nz-table #editRowTable nzBordered [nzData]="listOfData">
+  <thead>
+    <tr>
+      <th nzWidth="15%">شناسه</th>
+      <th nzWidth="20%">نام</th>
+      <th nzWidth="25%">نام خانوادگی</th>
+      <th nzWidth="20%">شماره شناسنامه</th>
+      <th nzWidth="10%">کد ملی</th>
+      <th nzWidth="10%">تاریخ تولد</th>
+      <th nzWidth="10%">جنسیت</th>
+      <th>عملگرها</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of editRowTable.data | filter: term">
+      <td>
+        <p innerHTML="{{ data.serial | highlight: term }}"></p>
+      </td>
+      <td>
+        <p innerHTML="{{ data.name | highlight: term }}"></p>
+      </td>
+      <td>
+        <p innerHTML="{{ data.familyName | highlight: term }}"></p>
+      </td>
+      <td>
+        <p innerHTML="{{ data.idNumber | highlight: term }}"></p>
+      </td>
+      <td>
+        <p innerHTML="{{ data.nationalCode | highlight: term }}"></p>
+      </td>
+      <td>
+        <p innerHTML="{{ data.birthDay | highlight: term }}"></p>
+      </td>
+      <td>
+        <p innerHTML="{{ data.gender | highlight: term }}"></p>
+      </td>
+      <td>
+        <div class="editable-row-operations">
+          <a [routerLink]="['/base-info/personnel-details']">ویرایش</a>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</nz-table>

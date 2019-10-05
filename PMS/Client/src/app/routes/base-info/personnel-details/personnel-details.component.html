@@ -1,0 +1,765 @@
+<div nz-col nzSpan="24">
+  <form nz-form role="form">
+    <div nz-col nzSpan="21">
+      <div nz-row [nzGutter]="12">
+        <div nz-col nzSpan="8">
+          <nz-form-item>
+            <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">شماره پرسنلی</nz-form-label>
+            <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'شماره پرسنلی'">
+              <nz-input-group>
+                <input nz-input formControlName="serialVal"/>
+              </nz-input-group>
+            </nz-form-control>
+          </nz-form-item>
+        </div>
+        <div nz-col nzSpan="8">
+          <nz-form-item>
+            <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">شماره فرم متقاضی کار</nz-form-label>
+            <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'شماره فرم متقاضی کار'">
+              <nz-input-group>
+                <input nz-input formControlName="serialVal"/>
+              </nz-input-group>
+            </nz-form-control>
+          </nz-form-item>
+        </div>
+        <div nz-col nzSpan="8">
+          <nz-form-item>
+            <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">وضعیت</nz-form-label>
+            <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'وضعیت '">
+              <nz-input-group>
+                <input nz-input formControlName="nameVal"  />
+              </nz-input-group>
+            </nz-form-control>
+          </nz-form-item>
+        </div>
+        <div nz-col nzSpan="12">
+          <nz-form-item>
+            <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">نام فارسی</nz-form-label>
+            <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="'نام فارسی'">
+              <nz-input-group>
+                <input nz-input formControlName="familyNameVal"  />
+              </nz-input-group>
+            </nz-form-control>
+          </nz-form-item>
+        </div>
+        <div nz-col nzSpan="12">
+          <nz-form-item>
+            <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">نام لاتین</nz-form-label>
+            <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="' نام لاتین '">
+              <nz-input-group>
+                <input nz-input formControlName="familyNameVal" />
+              </nz-input-group>
+            </nz-form-control>
+          </nz-form-item>
+        </div>
+        <div nz-col nzSpan="12">
+          <nz-form-item>
+            <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">نام خانوادگی فارسی</nz-form-label>
+            <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="'نام خانوادگی فارسی'">
+              <nz-input-group>
+                <input nz-input formControlName="familyNameVal"  />
+              </nz-input-group>
+            </nz-form-control>
+          </nz-form-item>
+        </div>
+        <div nz-col nzSpan="12">
+          <nz-form-item>
+            <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">نام خانوادگی لاتین</nz-form-label>
+            <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="'نام خانوادگی لاتین'">
+              <nz-input-group>
+                <input nz-input formControlName="familyNameVal"  />
+              </nz-input-group>
+            </nz-form-control>
+          </nz-form-item>
+        </div>
+      </div>
+      
+    </div>
+    <div nz-col nzSpan="2">
+        <nz-upload
+          class="avatar-uploader"
+          nzAction="https://jsonplaceholder.typicode.com/posts/"
+          nzName="avatar"
+          nzListType="picture-card"
+          [nzShowUploadList]="false"
+          [nzBeforeUpload]="beforeUpload"
+          (nzChange)="handleChange($event)"
+        >
+          <ng-container *ngIf="!avatarUrl">
+            <i class="upload-icon" nz-icon [nzType]="loading ? 'loading' : 'plus'"></i>
+            <div class="ant-upload-text">عکس پرسنلی</div>
+          </ng-container>
+          <img *ngIf="avatarUrl" [src]="avatarUrl" class="avatar" />
+        </nz-upload>
+      </div>
+  </form>
+</div>
+<div nz-col nzSpan="24">
+  <nz-collapse>
+    <nz-collapse-panel
+      #p
+      *ngFor="let panel of panels; let isFirst = first; let i = index"
+      [nzHeader]="panel.name"
+      [nzActive]="panel.active"
+      [ngStyle]="panel.customStyle"
+    >
+      <ng-container *ngIf="i === 0">
+        <div nz-col nzSpan="24">
+          <form nz-form [formGroup]="form" (ngSubmit)="submit()" role="form">
+            <div nz-col nzSpan="24">
+              <div nz-row [nzGutter]="12">
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">شماره پرسنلی</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'شماره پرسنلی'">
+                      <nz-input-group>
+                        <input nz-input formControlName="serialVal"  />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal"
+                      >شماره فرم متقاضی کار</nz-form-label
+                    >
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'شماره فرم متقاضی کار'">
+                      <nz-input-group>
+                        <input nz-input formControlName="serialVal"  />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">وضعیت</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'وضعیت '">
+                      <nz-input-group>
+                        <input nz-input formControlName="nameVal"  />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="12">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">نام فارسی</nz-form-label>
+                    <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="'نام فارسی'">
+                      <nz-input-group>
+                        <input nz-input formControlName="familyNameVal"  />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="12">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">نام لاتین</nz-form-label>
+                    <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="' نام لاتین '">
+                      <nz-input-group>
+                        <input nz-input formControlName="familyNameVal" />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="12">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal"
+                      >نام خانوادگی فارسی</nz-form-label
+                    >
+                    <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="'نام خانوادگی '">
+                      <nz-input-group>
+                        <input nz-input formControlName="familyNameVal" />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="12">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal"
+                      >نام خانوادگی لاتین</nz-form-label
+                    >
+                    <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="'نام خانوادگی لاتین '">
+                      <nz-input-group>
+                        <input nz-input formControlName="familyNameVal" />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">کد ملی</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'کد ملی'">
+                      <nz-input-group>
+                        <input nz-input formControlName="serialVal" />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">شناسنامه</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'شناسنامه'">
+                      <nz-input-group>
+                        <input nz-input formControlName="serialVal" />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">شناسه شناسنامه</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'شناسه شناسنامه '">
+                      <nz-input-group>
+                        <input nz-input formControlName="nameVal" />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">محل صدور</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'محل صدور'">
+                      <nz-input-group>
+                        <input nz-input formControlName="serialVal" />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">محل تولد</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'محل تولد'">
+                      <nz-input-group>
+                        <input nz-input formControlName="serialVal" />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">تاریخ تولد</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'تاریخ تولد '">
+                      <nz-input-group>
+                        <input nz-input formControlName="nameVal"  />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">جنسیت</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'جنسیت'">
+                      <nz-input-group>
+                        <input nz-input formControlName="serialVal"  />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">وضعیت تاهل</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'وضعیت تاهل'">
+                      <nz-input-group>
+                        <input nz-input formControlName="serialVal" />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">تاریخ ازدواج</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'تاریخ ازدواج '">
+                      <nz-input-group>
+                        <input nz-input formControlName="nameVal" />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">شماره تلفن</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'شماره تلفن'">
+                      <nz-input-group>
+                        <input nz-input formControlName="serialVal"  />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">شماره موبایل</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'شماره موبایل'">
+                      <nz-input-group>
+                        <input nz-input formControlName="serialVal"  />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="8">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">کدپستی</nz-form-label>
+                    <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'کدپستی '">
+                      <nz-input-group>
+                        <input nz-input formControlName="nameVal"  />
+                      </nz-input-group>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+                <div nz-col nzSpan="24">
+                  <nz-form-item>
+                    <nz-form-label [nzSm]="4" [nzXs]="24" nzRequired nzFor="serialVal">آدرس</nz-form-label>
+                    <nz-form-control [nzSm]="20" [nzXs]="24" [nzErrorTip]="'آدرس '">
+                      <textarea rows="4" nz-input ></textarea>
+                    </nz-form-control>
+                  </nz-form-item>
+                </div>
+              </div>
+              <div nz-col nzSpan="8">
+                <nz-form-item>
+                  <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">دین</nz-form-label>
+                  <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'دین'">
+                    <nz-input-group>
+                      <input nz-input formControlName="serialVal"  />
+                    </nz-input-group>
+                  </nz-form-control>
+                </nz-form-item>
+              </div>
+              <div nz-col nzSpan="8">
+                <nz-form-item>
+                  <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">گروه خونی</nz-form-label>
+                  <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'گروه خونی'">
+                    <nz-input-group>
+                      <input nz-input formControlName="serialVal"  />
+                    </nz-input-group>
+                  </nz-form-control>
+                </nz-form-item>
+              </div>
+              <div nz-col nzSpan="8">
+                <nz-form-item>
+                  <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">نظام وظیفه</nz-form-label>
+                  <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'نظام وظیفه '">
+                    <nz-input-group>
+                      <input nz-input formControlName="nameVal"  />
+                    </nz-input-group>
+                  </nz-form-control>
+                </nz-form-item>
+              </div>
+              <div nz-col nzSpan="8">
+                <nz-form-item>
+                  <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">نوع مسکن</nz-form-label>
+                  <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'نوع مسکن'">
+                    <nz-input-group>
+                      <input nz-input formControlName="serialVal" />
+                    </nz-input-group>
+                  </nz-form-control>
+                </nz-form-item>
+              </div>
+              <div nz-col nzSpan="8">
+                <nz-form-item>
+                  <nz-form-label [nzSm]="12" [nzXs]="24" nzRequired nzFor="serialVal">نوع بیمه</nz-form-label>
+                  <nz-form-control [nzSm]="12" [nzXs]="24" [nzErrorTip]="'نوع بیمه'">
+                    <nz-input-group>
+                      <input nz-input formControlName="serialVal"  />
+                    </nz-input-group>
+                  </nz-form-control>
+                </nz-form-item>
+              </div>
+              <div nz-col nzSpan="12">
+                <p style="margin-bottom: 20px;">
+                  <label nz-checkbox [(ngModel)]="Martyr" (click)="checkButtonMartyr()">
+                    فرزند شهید
+                  </label>
+                </p>
+                <nz-form-item *ngIf="Martyr">
+                  <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="serialVal">توالی حضور در جبهه</nz-form-label>
+                  <nz-form-control [nzSm]="18" [nzXs]="24" [nzErrorTip]="'توالی حضور در جبهه'">
+                    <nz-input-group>
+                      <input nz-input formControlName="serialVal"  />
+                    </nz-input-group>
+                  </nz-form-control>
+                  <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="serialVal">درصد جانبازی</nz-form-label>
+                  <nz-form-control [nzSm]="18" [nzXs]="24" [nzErrorTip]="'درصد جانبازی'">
+                    <nz-input-group>
+                      <input nz-input formControlName="serialVal"  />
+                    </nz-input-group>
+                  </nz-form-control>
+                </nz-form-item>
+              </div>
+              <div nz-col nzSpan="12">
+                <p style="margin-bottom: 20px;">
+                  <label nz-checkbox [(ngModel)]="MartyrFamily" (click)="checkButtonMartyrFamily()">
+                    خانواده شهید
+                  </label>
+                </p>
+                <nz-form-item *ngIf="MartyrFamily">
+                  <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="serialVal">مدت جبهه</nz-form-label>
+                  <nz-form-control [nzSm]="18" [nzXs]="24" [nzErrorTip]="'مدت جبهه'">
+                    <nz-input-group>
+                      <input nz-input formControlName="serialVal"  />
+                    </nz-input-group>
+                  </nz-form-control>
+                  <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="serialVal">مدت اسارت</nz-form-label>
+                  <nz-form-control [nzSm]="18" [nzXs]="24" [nzErrorTip]="'مدت اسارت'">
+                    <nz-input-group>
+                      <input nz-input formControlName="serialVal"  />
+                    </nz-input-group>
+                  </nz-form-control>
+                </nz-form-item>
+              </div>
+            </div>
+
+            <div nz-col nzSpan="24">
+              <button class="submitBtn" nz-button nzType="primary" (click)="submit()">ثبت</button>
+            </div>
+          </form>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="i === 1">
+        <button nz-button (click)="addRow()" nzType="primary" class="addBtn">اضافه کردن</button>
+        <nz-table #editRowTable nzBordered [nzData]="listOfData">
+          <thead>
+            <tr>
+              <th nzWidth="10%">ردیف</th>
+              <th nzWidth="10%">نوع مدرک</th>
+              <th nzWidth="20%">نام دانشگاه</th>
+              <th nzWidth="20%">رشته تحصیلی</th>
+              <th nzWidth="10%">گرایش تحصیلی</th>
+              <th nzWidth="10%">تاریخ شروع</th>
+              <th nzWidth="10%">تاریخ پایان</th>
+              <th nzWidth="5%">معدل</th>
+              <th nzWidth="5%">فعال</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let data of editRowTable.data">
+              <td>
+                <ng-container *ngIf="!editCache[data.id].edit; else yearInput">
+                  {{ data.year }}
+                </ng-container>
+                <ng-template #yearInput>
+                  <input type="text" nz-input [(ngModel)]="editCache[data.id].data.year" />
+                </ng-template>
+              </td>
+              <td>
+                <ng-container *ngIf="!editCache[data.id].edit; else monthInput">
+                  {{ data.month }}
+                </ng-container>
+                <ng-template #monthInput>
+                  <input type="text" nz-input [(ngModel)]="editCache[data.id].data.month" />
+                </ng-template>
+              </td>
+              <td>
+                <ng-container *ngIf="!editCache[data.id].edit; else personnelyInput">
+                  {{ data.personnel }}
+                </ng-container>
+                <ng-template #personnelyInput>
+                  <input type="text" nz-input [(ngModel)]="editCache[data.id].data.personnel" />
+                </ng-template>
+              </td>
+              <td>
+                <ng-container *ngIf="!editCache[data.id].edit; else fullNameInput">
+                  {{ data.fullname }}
+                </ng-container>
+                <ng-template #fullNameInput>
+                  <input type="text" nz-input [(ngModel)]="editCache[data.id].data.fullname" />
+                </ng-template>
+              </td>
+              <td>
+                <ng-container *ngIf="!editCache[data.id].edit; else typeInput">
+                  {{ data.type }}
+                </ng-container>
+                <ng-template #typeInput>
+                  <input type="text" nz-input [(ngModel)]="editCache[data.id].data.type" />
+                </ng-template>
+              </td>
+              <td>
+                <ng-container *ngIf="!editCache[data.id].edit; else statusInput">
+                  {{ data.status }}
+                </ng-container>
+                <ng-template #statusInput>
+                  <input type="text" nz-input [(ngModel)]="editCache[data.id].data.status" />
+                </ng-template>
+              </td>
+              <td>
+                <ng-container *ngIf="!editCache[data.id].edit; else yearEditInput">
+                  {{ data.yearedit }}
+                </ng-container>
+                <ng-template #yearEditInput>
+                  <input type="text" nz-input [(ngModel)]="editCache[data.id].data.yearedit" />
+                </ng-template>
+              </td>
+              <td>
+                <ng-container *ngIf="!editCache[data.id].edit; else monthEditInput">
+                  {{ data.monthedit }}
+                </ng-container>
+                <ng-template #monthEditInput>
+                  <input type="text" nz-input [(ngModel)]="editCache[data.id].data.monthedit" />
+                </ng-template>
+              </td>
+              <td>
+                <div class="editable-row-operations">
+                  <ng-container *ngIf="!editCache[data.id].edit; else saveTpl">
+                    <a (click)="startEdit(data.id)">ویرایش</a>
+                  </ng-container>
+                  <ng-template #saveTpl>
+                    <a (click)="saveEdit(data.id)">ذخیره</a>
+                    <a nz-popconfirm nzTitle="انصراف می دهید؟" (nzOnConfirm)="cancelEdit(data.id)">انصراف</a>
+                  </ng-template>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </nz-table>
+      </ng-container>
+      <ng-container *ngIf="i === 2">
+        <div nz-col nzSpan="24">
+          <button nz-button (click)="addRow()" nzType="primary" class="addBtn">اضافه کردن</button>
+        </div>
+
+        <div nz-col nzSpan="14">
+          <nz-table #editRowTable nzBordered [nzData]="listOfData">
+            <thead>
+              <tr>
+                <th nzWidth="10%">ردیف</th>
+                <th nzWidth="10%">عنوان کار</th>
+                <th nzWidth="50%">محل کار</th>
+                <th nzWidth="10%">مدت</th>
+                <th nzWidth="10%">مدت قابل قبول</th>
+                <th nzWidth="10%">عملگر ها</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let data of editRowTable.data">
+                <td>
+                  <ng-container *ngIf="!editCache[data.id].edit; else yearInput">
+                    {{ data.year }}
+                  </ng-container>
+                  <ng-template #yearInput>
+                    <input type="text" nz-input [(ngModel)]="editCache[data.id].data.year" />
+                  </ng-template>
+                </td>
+                <td>
+                  <ng-container *ngIf="!editCache[data.id].edit; else monthInput">
+                    {{ data.month }}
+                  </ng-container>
+                  <ng-template #monthInput>
+                    <input type="text" nz-input [(ngModel)]="editCache[data.id].data.month" />
+                  </ng-template>
+                </td>
+                <td>
+                  <ng-container *ngIf="!editCache[data.id].edit; else personnelyInput">
+                    {{ data.personnel }}
+                  </ng-container>
+                  <ng-template #personnelyInput>
+                    <input type="text" nz-input [(ngModel)]="editCache[data.id].data.personnel" />
+                  </ng-template>
+                </td>
+                <td>
+                  <ng-container *ngIf="!editCache[data.id].edit; else fullNameInput">
+                    {{ data.fullname }}
+                  </ng-container>
+                  <ng-template #fullNameInput>
+                    <input type="text" nz-input [(ngModel)]="editCache[data.id].data.fullname" />
+                  </ng-template>
+                </td>
+                <td>
+                  <ng-container *ngIf="!editCache[data.id].edit; else typeInput">
+                    {{ data.type }}
+                  </ng-container>
+                  <ng-template #typeInput>
+                    <input type="text" nz-input [(ngModel)]="editCache[data.id].data.type" />
+                  </ng-template>
+                </td>
+                <td>
+                  <div class="editable-row-operations">
+                    <ng-container *ngIf="!editCache[data.id].edit; else saveTpl">
+                      <a (click)="startEdit(data.id)">ویرایش</a>
+                    </ng-container>
+                    <ng-template #saveTpl>
+                      <a (click)="saveEdit(data.id)">ذخیره</a>
+                      <a nz-popconfirm nzTitle="انصراف می دهید؟" (nzOnConfirm)="cancelEdit(data.id)">انصراف</a>
+                    </ng-template>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </nz-table>
+        </div>
+        <div nz-col nzSpan="10">
+          <div nz-col nzSpan="12">
+            <nz-form-item>
+              <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">تاریخ شروع</nz-form-label>
+              <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="' تاریخ شروع '">
+                <nz-input-group>
+                  <input nz-input formControlName="familyNameVal"  />
+                </nz-input-group>
+              </nz-form-control>
+            </nz-form-item>
+          </div>
+          <div nz-col nzSpan="12">
+            <nz-form-item>
+              <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">تاریخ پایان</nz-form-label>
+              <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="'تاریخ پایان'">
+                <nz-input-group>
+                  <input nz-input formControlName="familyNameVal" />
+                </nz-input-group>
+              </nz-form-control>
+            </nz-form-item>
+          </div>
+          <div nz-col nzSpan="24">
+            <nz-form-item>
+              <nz-form-label [nzSm]="4" [nzXs]="24" nzRequired nzFor="serialVal">توضیحات</nz-form-label>
+              <nz-form-control [nzSm]="20" [nzXs]="24" [nzErrorTip]="'توضیحات '">
+                <textarea rows="4" nz-input ></textarea>
+              </nz-form-control>
+            </nz-form-item>
+          </div>
+          <div nz-col nzSpan="24">
+            <button class="submitBtnExperience" nz-button nzType="primary" (click)="submit()">ثبت</button>
+          </div>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="i === 3">
+        <div nz-col nzSpan="24">
+          <button nz-button (click)="addRow()" nzType="primary" class="addBtn">اضافه کردن</button>
+        </div>
+
+        <div nz-col nzSpan="14">
+          <nz-table #editRowTable nzBordered [nzData]="listOfData">
+            <thead>
+              <tr>
+                <th nzWidth="15%">ردیف</th>
+                <th nzWidth="15%">نام</th>
+                <th nzWidth="30%">نام خانوادگی</th>
+                <th nzWidth="20%">نسبت</th>
+                <th nzWidth="20%">تاریخ اعتبار</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let data of editRowTable.data">
+                <td>
+                  <ng-container *ngIf="!editCache[data.id].edit; else monthInput">
+                    {{ data.month }}
+                  </ng-container>
+                  <ng-template #monthInput>
+                    <input type="text" nz-input [(ngModel)]="editCache[data.id].data.month" />
+                  </ng-template>
+                </td>
+                <td>
+                  <ng-container *ngIf="!editCache[data.id].edit; else personnelyInput">
+                    {{ data.personnel }}
+                  </ng-container>
+                  <ng-template #personnelyInput>
+                    <input type="text" nz-input [(ngModel)]="editCache[data.id].data.personnel" />
+                  </ng-template>
+                </td>
+                <td>
+                  <ng-container *ngIf="!editCache[data.id].edit; else fullNameInput">
+                    {{ data.fullname }}
+                  </ng-container>
+                  <ng-template #fullNameInput>
+                    <input type="text" nz-input [(ngModel)]="editCache[data.id].data.fullname" />
+                  </ng-template>
+                </td>
+                <td>
+                  <ng-container *ngIf="!editCache[data.id].edit; else typeInput">
+                    {{ data.type }}
+                  </ng-container>
+                  <ng-template #typeInput>
+                    <input type="text" nz-input [(ngModel)]="editCache[data.id].data.type" />
+                  </ng-template>
+                </td>
+                <td>
+                  <div class="editable-row-operations">
+                    <ng-container *ngIf="!editCache[data.id].edit; else saveTpl">
+                      <a (click)="startEdit(data.id)">ویرایش</a>
+                    </ng-container>
+                    <ng-template #saveTpl>
+                      <a (click)="saveEdit(data.id)">ذخیره</a>
+                      <a nz-popconfirm nzTitle="انصراف می دهید؟" (nzOnConfirm)="cancelEdit(data.id)">انصراف</a>
+                    </ng-template>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </nz-table>
+        </div>
+        <div nz-col nzSpan="10">
+          <div nz-col nzSpan="12">
+            <nz-form-item>
+              <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">جنسیت</nz-form-label>
+              <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="' جنسیت '">
+                <nz-input-group>
+                  <input nz-input formControlName="familyNameVal"  />
+                </nz-input-group>
+              </nz-form-control>
+            </nz-form-item>
+          </div>
+          <div nz-col nzSpan="12">
+            <nz-form-item>
+              <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">تاریخ تولد</nz-form-label>
+              <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="'تاریخ تولد'">
+                <nz-input-group>
+                  <input nz-input formControlName="familyNameVal"  />
+                </nz-input-group>
+              </nz-form-control>
+            </nz-form-item>
+          </div>
+          <div nz-col nzSpan="12">
+            <nz-form-item>
+              <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">ش . ش</nz-form-label>
+              <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="' شماره شناسنامه '">
+                <nz-input-group>
+                  <input nz-input formControlName="familyNameVal"  />
+                </nz-input-group>
+              </nz-form-control>
+            </nz-form-item>
+          </div>
+          <div nz-col nzSpan="12">
+            <nz-form-item>
+              <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">کد ملی</nz-form-label>
+              <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="'کد ملی'">
+                <nz-input-group>
+                  <input nz-input formControlName="familyNameVal"  />
+                </nz-input-group>
+              </nz-form-control>
+            </nz-form-item>
+          </div>
+          <div nz-col nzSpan="12">
+            <nz-form-item>
+              <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">تاریخ ازدواج</nz-form-label>
+              <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="' تاریخ ازدواج '">
+                <nz-input-group>
+                  <input nz-input formControlName="familyNameVal"  />
+                </nz-input-group>
+              </nz-form-control>
+            </nz-form-item>
+          </div>
+          <div nz-col nzSpan="12">
+            <nz-form-item>
+              <nz-form-label [nzSm]="8" [nzXs]="24" nzRequired nzFor="serialVal">نوع مدرک</nz-form-label>
+              <nz-form-control [nzSm]="16" [nzXs]="24" [nzErrorTip]="'نوع مدرک'">
+                <nz-input-group>
+                  <input nz-input formControlName="familyNameVal" />
+                </nz-input-group>
+              </nz-form-control>
+            </nz-form-item>
+          </div>
+          <div nz-col nzSpan="12">
+            <label nz-checkbox [(ngModel)]="Martyr" (click)="checkButtonMartyr()"> بیمه تکمیلی </label>
+          </div>
+          <div nz-col nzSpan="12">
+            <label nz-checkbox [(ngModel)]="MartyrFamily" (click)="checkButtonMartyrFamily()"> تحت تکفل </label>
+          </div>
+
+          <div nz-col nzSpan="24">
+            <button class="submitBtnInsurance" nz-button nzType="primary" (click)="submit()">ثبت</button>
+          </div>
+        </div>
+      </ng-container>
+      <ng-template #expandedIcon let-active>
+        {{ active }}
+        <i nz-icon nzType="caret-right" class="ant-collapse-arrow" [nzRotate]="p.nzActive ? 90 : -90"></i>
+      </ng-template>
+    </nz-collapse-panel>
+  </nz-collapse>
+</div>

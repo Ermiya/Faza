@@ -1,0 +1,88 @@
+<button nz-button (click)="addRow()" nzType="primary" class="addBtn">اضافه کردن</button>
+
+<nz-table #editRowTable nzBordered [nzData]="listOfData">
+  <thead>
+    <tr>
+      <th nzWidth="15%">سریال</th>
+      <th nzWidth="20%">کد شغل بیمه</th>
+      <th nzWidth="25%">عنوان</th>
+      <th nzWidth="20%">رشته شغلی</th>
+      <th nzWidth="10%">سرپرستی</th>
+      <th nzWidth="10%">فعال</th>
+      <th>عملگرها</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of editRowTable.data">
+      <td>
+        <ng-container *ngIf="!editCache[data.id].edit && data.serial !== ''; else serialInput">
+          {{ data.serial }}
+        </ng-container>
+        <ng-template #serialInput>
+          <input type="text" nz-input [(ngModel)]="editCache[data.id].data.serial" />
+        </ng-template>
+      </td>
+      <td>
+        <ng-container *ngIf="!editCache[data.id].edit && data.insuranceCode !== ''; else insuranceInput">
+          {{ data.insuranceCode }}
+        </ng-container>
+        <ng-template #insuranceInput>
+          <input type="text" nz-input [(ngModel)]="editCache[data.id].data.insuranceCode" />
+        </ng-template>
+      </td>
+      <td>
+        <ng-container *ngIf="!editCache[data.id].edit && data.title !== ''; else titleInput">
+          {{ data.title }}
+        </ng-container>
+        <ng-template #titleInput>
+          <input type="text" nz-input [(ngModel)]="editCache[data.id].data.title" />
+        </ng-template>
+      </td>
+      <td>
+        <ng-container *ngIf="!editCache[data.id].edit && data.jobString !== ''; else jobStringInput">
+          {{ data.jobString }}
+        </ng-container>
+        <ng-template #jobStringInput>
+          <input type="text" nz-input [(ngModel)]="editCache[data.id].data.jobString" />
+        </ng-template>
+      </td>
+      <td>
+        <ng-container *ngIf="!editCache[data.id].edit && data.supervision !== ''; else supervisionInput">
+          <ng-container *ngIf="data.supervision === true">
+            سرپرست
+          </ng-container>
+          <ng-container *ngIf="data.supervision === false">
+            عادی
+          </ng-container>
+        </ng-container>
+        <ng-template #supervisionInput>
+          <label nz-checkbox [(ngModel)]="editCache[data.id].data.supervision"></label>
+        </ng-template>
+      </td>
+      <td>
+        <ng-container *ngIf="!editCache[data.id].edit && data.active !== ''; else activeInput">
+          <ng-container *ngIf="data.active === true">
+            فعال
+          </ng-container>
+          <ng-container *ngIf="data.active === false">
+            غیر فعال
+          </ng-container>
+        </ng-container>
+        <ng-template #activeInput>
+          <label nz-checkbox [(ngModel)]="editCache[data.id].data.active"></label>
+        </ng-template>
+      </td>
+      <td>
+        <div class="editable-row-operations">
+          <ng-container *ngIf="!editCache[data.id].edit; else saveTpl">
+            <a (click)="startEdit(data.id)">ویرایش</a>
+          </ng-container>
+          <ng-template #saveTpl>
+            <a (click)="saveEdit(data.id)">ذخیره</a>
+            <a nz-popconfirm nzTitle="انصراف می دهید؟" (nzOnConfirm)="cancelEdit(data.id)">انصراف</a>
+          </ng-template>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</nz-table>

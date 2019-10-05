@@ -1,0 +1,18 @@
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Client\bin\Debug\ERP.Accounting.Client.dll.config
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Client\bin\Debug\ERP.Accounting.Client.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Client\bin\Debug\ERP.Accounting.Client.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Client\obj\Debug\ERP.Accounting.Client.csprojAssemblyReference.cache
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Client\obj\Debug\ERP.Accounting.Client.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Client\obj\Debug\ERP.Accounting.Client.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Client\obj\Debug\ERP.Accounting.Client.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Client\bin\Debug\ERP.Accounting.Client.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Client\bin\Debug\ERP.Accounting.Client.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Client\bin\Debug\ERP.Accounting.Client.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Client\bin\Debug\Newtonsoft.Json.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Client\bin\Debug\UAParser.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Client\bin\Debug\Newtonsoft.Json.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Client\bin\Debug\UAParser.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Client\obj\Debug\ERP.Accounting.Client.csproj.CoreCompileInputs.cache
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Client\obj\Debug\ERP.Accounting.Client.csproj.CopyComplete
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Client\obj\Debug\ERP.Accounting.Client.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Client\obj\Debug\ERP.Accounting.Client.pdb

@@ -1,0 +1,77 @@
+{
+  "app": {
+    "name": "FASA",
+    "description": ""
+  },
+  "user": {
+    "name": "Admin",
+    "avatar": "./assets/tmp/img/avatar.jpg",
+    "email": "cipchk@qq.com"
+  },
+  "menu": [
+    {
+      "text": "",
+      "group": false,
+      "i18n": "",
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "registration",
+          "i18n": "menu.registration",
+          "icon": "anticon-dashboard",
+          "children": [
+            {
+              "text": "applicants-registration",
+              "link": "/applicants-register",
+              "i18n": "menu.applicants-registration"
+            }
+          ]
+        },
+        {
+          "text": "base-info",
+          "i18n": "menu.base-info",
+          "icon": "anticon-dashboard",
+          "children": [
+            {
+              "text": "description-rulings",
+              "link": "/base-info/description-rulling",
+              "i18n": "menu.base-info-description-rulings"
+            },
+            {
+              "text": "jobs",
+              "link": "/base-info/jobs",
+              "i18n": "menu.base-info-jobs"
+            },
+            {
+              "text": "personnel-list",
+              "link": "/base-info/personnel-list",
+              "i18n": "menu.base-info-personnel-list"
+            },
+            {
+              "text": "personnel-contract",
+              "link": "/base-info/personnel-contract",
+              "i18n": "menu.base-info-personnel-contract"
+            },
+            {
+              "text": "personnel-details",
+              "link": "/base-info/personnel-details",
+              "i18n": "menu.base-info-personnel-details"
+            }
+          ]
+        },
+        {
+          "text": "functionality",
+          "i18n": "menu.functionality",
+          "icon": "anticon-dashboard",
+          "children": [
+            {
+              "text": "monthly",
+              "link": "/functionality/monthly",
+              "i18n": "menu.functionality.monthly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

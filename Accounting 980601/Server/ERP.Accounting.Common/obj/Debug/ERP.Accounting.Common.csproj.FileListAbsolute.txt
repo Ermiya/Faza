@@ -1,0 +1,18 @@
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Common\bin\Debug\ERP.Accounting.Common.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Common\bin\Debug\ERP.Accounting.Common.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Common\obj\Debug\ERP.Accounting.Common.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Common\obj\Debug\ERP.Accounting.Common.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Common\obj\Debug\ERP.Accounting.Common.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Common\obj\Debug\ERP.Accounting.Common.csprojAssemblyReference.cache
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Common\bin\Debug\ERP.Accounting.Common.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Common\bin\Debug\ERP.Accounting.Common.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Common\obj\Debug\ERP.Accounting.Common.csproj.CoreCompileInputs.cache
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Common\obj\Debug\ERP.Accounting.Common.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Common\obj\Debug\ERP.Accounting.Common.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Common\bin\Debug\ERP.Accounting.Common.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Common\bin\Debug\EntityFramework.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Common\bin\Debug\EntityFramework.SqlServer.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Common\bin\Debug\EntityFramework.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Common\bin\Debug\EntityFramework.SqlServer.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Common\obj\Debug\ERP.Accounting.Common.csprojAssemblyReference.cache
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Common\obj\Debug\ERP.Accounting.Common.csproj.CopyComplete

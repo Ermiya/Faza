@@ -1,0 +1,13 @@
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Business\ERP.Accounting.Business\bin\Debug\ERP.Accounting.Business.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Business\ERP.Accounting.Business\bin\Debug\ERP.Accounting.Business.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Business\ERP.Accounting.Business\bin\Debug\ERP.Accounting.Business.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Business\ERP.Accounting.Business\bin\Debug\ERP.Accounting.Data.Common.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Business\ERP.Accounting.Business\bin\Debug\EntityFramework.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Business\ERP.Accounting.Business\bin\Debug\ERP.Accounting.Data.Common.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Business\ERP.Accounting.Business\bin\Debug\ERP.Accounting.Data.Common.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Business\ERP.Accounting.Business\bin\Debug\EntityFramework.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Business\ERP.Accounting.Business\obj\Debug\ERP.Accounting.Business.csprojAssemblyReference.cache
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Business\ERP.Accounting.Business\obj\Debug\ERP.Accounting.Business.csproj.CoreCompileInputs.cache
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Business\ERP.Accounting.Business\obj\Debug\ERP.Accounting.Business.csproj.CopyComplete
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Business\ERP.Accounting.Business\obj\Debug\ERP.Accounting.Business.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Business\ERP.Accounting.Business\obj\Debug\ERP.Accounting.Business.pdb

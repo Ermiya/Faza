@@ -1,0 +1,55 @@
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\obj\Debug\ERP.Accounting.Facade.csprojAssemblyReference.cache
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\obj\Debug\ERP.Accounting.Facade.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Facade.dll.config
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Facade.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Facade.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Business.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Data.Common.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Data.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\GeoIP.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\Sigma.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\UAParser.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Business.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Business.dll.config
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Data.Common.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Data.Common.dll.config
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Data.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Data.dll.config
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\Sigma.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\Sigma.dll.config
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\UAParser.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\obj\Debug\ERP.Accounting.Facade.csproj.CopyComplete
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\obj\Debug\ERP.Accounting.Facade.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Facade\obj\Debug\ERP.Accounting.Facade.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\obj\Debug\ERP.Accounting.Facade.csprojAssemblyReference.cache
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\obj\Debug\ERP.Accounting.Facade.csproj.CoreCompileInputs.cache
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Facade.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Facade.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Facade.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Business.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Data.Common.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Data.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\GeoIP.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\Sigma.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\EntityFramework.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Business.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Business.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Data.Common.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Data.Common.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Data.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Data.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\Newtonsoft.Json.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\Sigma.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\Sigma.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\UAParser.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\EntityFramework.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\obj\Debug\ERP.Accounting.Facade.csproj.CopyComplete
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\obj\Debug\ERP.Accounting.Facade.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\obj\Debug\ERP.Accounting.Facade.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Common.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Common.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Facade\bin\Debug\ERP.Accounting.Common.dll.config

@@ -1,0 +1,11 @@
+<div class="creactionContainer" [ngClass]="{'collapsed': checkCollapsed()}">
+  <div class="creationRow">
+    <span class="title">{{ nameTitle }}</span>
+    <span class="value">{{ nameValue }}</span>
+  </div>
+  <ng-content></ng-content>
+  <div class="creationRow">
+    <span class="title">{{ timeTitle }}</span>
+    <span class="value">{{ timeValue }}</span>
+  </div>
+</div>

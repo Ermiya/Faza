@@ -1,0 +1,185 @@
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\obj\Debug\ERP.Accounting.Service.WebApi.csprojAssemblyReference.cache
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\obj\Debug\ERP.Accounting.Service.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Service.WebApi.dll.config
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Service.WebApi.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Service.WebApi.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\EntityFramework.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Facade.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\GeoIP.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.Data.Edm.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.Data.OData.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\Newtonsoft.Json.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\Sigma.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\Swashbuckle.Core.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\System.Spatial.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\System.Web.Http.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\System.Web.Http.OData.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\UAParser.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\WebActivatorEx.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Business.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Data.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Data.Common.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Facade.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Facade.dll.config
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\EntityFramework.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.Data.Edm.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.Data.OData.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\Newtonsoft.Json.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\Sigma.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\Sigma.dll.config
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\System.Spatial.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\System.Web.Http.OData.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\UAParser.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\System.Web.Http.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Business.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Business.dll.config
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Data.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Data.dll.config
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Data.Common.pdb
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Data.Common.dll.config
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\de\System.Spatial.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\es\System.Spatial.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\fr\System.Spatial.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\it\System.Spatial.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ja\System.Spatial.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ko\System.Spatial.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\ru\System.Spatial.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\obj\Debug\ERP.Accounting.Service.WebApi.csproj.CopyComplete
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\obj\Debug\ERP.Accounting.Service.WebApi.dll
+C:\Users\lenovo\Source\Workspaces\Workspace\erp\Accounting\Server\ERP.Accounting.Service.WebApi\obj\Debug\ERP.Accounting.Service.WebApi.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Service.WebApi.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Service.WebApi.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Service.WebApi.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\csc.exe
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\csc.exe.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\csc.rsp
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\csi.exe
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\csi.rsp
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\System.AppContext.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\System.Collections.Immutable.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\System.IO.FileSystem.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\vbc.exe
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\vbc.exe.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\vbc.rsp
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\VBCSCompiler.exe
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\roslyn\VBCSCompiler.exe.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\EntityFramework.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\EntityFramework.SqlServer.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Facade.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\GeoIP.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.Data.Edm.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.Data.OData.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.Web.Infrastructure.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\Newtonsoft.Json.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\Sigma.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\Swashbuckle.Core.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\System.Net.Http.Formatting.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\System.Spatial.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\System.Web.Http.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\System.Web.Http.OData.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\System.Web.Http.WebHost.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\UAParser.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\WebActivatorEx.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Business.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Data.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Data.Common.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Facade.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Facade.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\EntityFramework.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\EntityFramework.SqlServer.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.Data.Edm.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\Microsoft.Data.OData.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\Newtonsoft.Json.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\Sigma.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\Sigma.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\System.Net.Http.Formatting.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\System.Spatial.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\System.Web.Http.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\System.Web.Http.OData.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\System.Web.Http.WebHost.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\UAParser.xml
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Business.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Business.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Data.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Data.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Data.Common.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Data.Common.dll.config
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\de\Microsoft.Data.Edm.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\es\Microsoft.Data.Edm.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\it\Microsoft.Data.Edm.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\de\Microsoft.Data.OData.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\es\Microsoft.Data.OData.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\fr\Microsoft.Data.OData.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\it\Microsoft.Data.OData.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ja\Microsoft.Data.OData.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ko\Microsoft.Data.OData.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ru\Microsoft.Data.OData.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\de\System.Spatial.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\es\System.Spatial.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\fr\System.Spatial.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\it\System.Spatial.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ja\System.Spatial.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ko\System.Spatial.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ru\System.Spatial.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\zh-Hans\System.Spatial.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\zh-Hant\System.Spatial.resources.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\obj\Debug\ERP.Accounting.Service.WebApi.csproj.CoreCompileInputs.cache
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\obj\Debug\ERP.Accounting.Service.WebApi.csproj.CopyComplete
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\obj\Debug\ERP.Accounting.Service.WebApi.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\obj\Debug\ERP.Accounting.Service.WebApi.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\obj\Debug\ERP.Accounting.Service.WebApi.csprojAssemblyReference.cache
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Common.dll
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Common.pdb
+D:\MyProject\Faza\Accounting 980601\Server\ERP.Accounting.Service.WebApi\bin\ERP.Accounting.Common.dll.config
